@@ -15,6 +15,20 @@ img {
   min-height: 100%;
 }
 
+button {
+  width: 90px;
+  height: 30px;
+  border: none;
+  background: pink;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+  margin-top: 30px;
+  border-radius: 10px;
+  align-items: center;
+}
+
 .users {
   padding: 60px 0;
   &-wrapper {
