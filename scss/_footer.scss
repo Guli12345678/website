@@ -1,0 +1,27 @@
+.footer {
+  height: 65px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 91px;
+  width: 100%;
+  overflow-x: hidden;
+
+  p {
+    font-size: 16px;
+    width: 207px;
+    left: 35%;
+    top: 30%;
+    position: relative;
+    color: white;
+  }
+
+  @media (max-width: 800px) {
+  }
+
+  @media (max-width: 500px) {
+    p {
+      display: none;
+    }
+  }
+}
